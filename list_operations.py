@@ -17,7 +17,7 @@
 # operations. The docstring of each function describes what it should do.
 #
 # DO NOT USE ANY OF THE BUILT IN LIST METHODS, OR len(l)
-lst = ['Jan', 'Feb', 'Mar']
+
 
 def head(input_list):
     """
@@ -29,9 +29,7 @@ def head(input_list):
     'Jan'
 
     """
-    return lst[0]
-
-head(lst)
+    return input_list[0]
 
 
 def tail(input_list):
@@ -44,8 +42,8 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
+    return input_list[1:]
 
-    return []
 
 
 def last(input_list):
@@ -58,8 +56,8 @@ def last(input_list):
     'Mar'
 
     """
+    return input_list[-1]
 
-    return []
 
 
 def init(input_list):
@@ -72,14 +70,11 @@ def init(input_list):
     ['Jan', 'Feb']
 
     """
-
-    return []
-
+    return input_list[:-1]
 
 ##############################################################################
 # Do yourself a favor and get a short code review here.
 # You can also get reviewed by a neighbor who has been reviewed.
-
 
 def first_three(input_list):
     """
@@ -91,8 +86,6 @@ def first_three(input_list):
     ['Jan', 'Feb', 'Mar']
 
     """
-
-    return []
 
 
 def last_five(input_list):
