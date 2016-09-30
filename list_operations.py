@@ -195,7 +195,7 @@ def replace_middle(input_list):
     """
         
     input_list[2:-2] = [42, 37]
-    return
+
 
 def delete_third_and_seventh(input_list):
     """
@@ -211,7 +211,7 @@ def delete_third_and_seventh(input_list):
 
     """
     del input_list[2:7:4]
-    return
+
 
 
 def delete_middle(input_list):
@@ -228,7 +228,6 @@ def delete_middle(input_list):
 
     """
     del input_list[2:-2]
-    return
 
 
 ##############################################################################
